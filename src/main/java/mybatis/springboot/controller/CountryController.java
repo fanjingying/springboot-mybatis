@@ -59,6 +59,7 @@ public class CountryController {
     public ModelAndView add() {
         ModelAndView result = new ModelAndView("view");
         result.addObject("country", new Country());
+
         return result;
     }
 
